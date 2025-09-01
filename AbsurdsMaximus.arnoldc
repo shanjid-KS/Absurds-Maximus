@@ -1,0 +1,45 @@
+// AbsurdsMaximus.arnoldc - The Muscle
+// Represents the board as an array of 64 16-bit integers.
+// Each integer is the ASCII code for a piece.
+// 'R' (82) = White Rook, 'r' (114) = Black Rook, etc. 0 = empty square.
+
+// START MAIN
+IT'S SHOWTIME
+
+    // Declare the board array. ArnoldC has no array literals, so we must do it manually.
+    // HEY CHRISTMAS TREE - Declare variable
+    // YOU SET US UP - Assign value
+    HEY CHRISTMAS TREE board_0
+    YOU SET US UP 82 // ASCII for 'R'
+    HEY CHRISTMAS TREE board_1
+    YOU SET US UP 78 // 'N'
+    // ... and so on for all 64 squares. This will be incredibly verbose.
+    // For this bedrock example, we'll just initialize a few pieces to prove the concept.
+
+    HEY CHRISTMAS TREE a_rook
+    YOU SET US UP 82 // R
+    HEY CHRISTMAS TREE a_pawn
+    YOU SET US UP 80 // P
+    HEY CHRISTMAS TREE empty_square
+    YOU SET US UP 0
+    HEY CHRISTMAS TREE a_black_pawn
+    YOU SET US UP 112 // p
+
+    // Print a "welcome" message from the engine
+    // TALK TO THE HAND - Print statement
+    TALK TO THE HAND "I'LL BE BACK... with a move."
+
+    // Print out the piece on the first square (a rook)
+    TALK TO THE HAND "Square a1 contains piece with ASCII value:"
+    TALK TO THE HAND a_rook
+
+    // TODO: Implement move generation logic.
+    // This would involve massive loops (STICK AROUND) and conditionals
+    // (BECAUSE I'M GOING TO SAY PLEASE).
+
+    // TODO: When a position needs evaluation, print a FEN-like string to stdout
+    // for the JavaScript wrapper to catch.
+    TALK TO THE HAND "EVAL:rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
+
+// END MAIN
+YOU HAVE BEEN TERMINATED
