@@ -26,7 +26,6 @@ IT'S SHOWTIME
     YOU SET US UP 112 // p
 
     // Print a "welcome" message from the engine
-    // TALK TO THE HAND - Print statement
     TALK TO THE HAND "I'LL BE BACK... with a move."
 
     // Print out the piece on the first square (a rook)
