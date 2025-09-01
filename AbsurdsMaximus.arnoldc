@@ -1,7 +1,7 @@
 // AbsurdsMaximus.arnoldc - The Muscle
 // Represents the board as an array of 64 16-bit integers.
 // Each integer is the ASCII code for a piece.
-// 'R' (82) = White Rook, 'r' (114) = Black Rook, etc. 0 = empty square. like the Python `Chess` library' `board
+// 'R' (82) = White Rook, 'r' (114) = Black Rook, etc. 0 = empty square. like the Python `Chess` library' `board()` function.
 
 // START MAIN
 IT'S SHOWTIME
